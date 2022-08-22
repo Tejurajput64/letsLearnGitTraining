@@ -7,7 +7,7 @@ class GoogleIP
 		try
 		{
 		InetAddress ip= InetAddress.getByName("www.Google.com");
-		System.out.println("Host name=" +ip.getHostName());
+		System.out.println("modify here=" +ip.getHostName());
 		System.out.println("ip=" +ip.getHostAddress());
 		}
 		catch(Exception e)
